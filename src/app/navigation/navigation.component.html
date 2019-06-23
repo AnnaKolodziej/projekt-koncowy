@@ -1,0 +1,17 @@
+<div class="navigation">
+  <a routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="setTitle('Home')">
+  Strona Główna
+</a>
+<a routerLink="about" routerLinkActive="active" (click)="setTitle('About')">
+  O mnie
+</a>
+<a routerLink="literature" routerLinkActive="active" (click)="setTitle('Literature')">
+  Literatura
+</a>
+<a routerLink="films" routerLinkActive="active" (click)="setTitle('Films')">
+  Film
+</a>
+<a routerLink="contact" routerLinkActive="active" (click)="setTitle('Contact')">
+    Kontakt
+  </a>
+</div>

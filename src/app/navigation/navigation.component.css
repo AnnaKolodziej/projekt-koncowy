@@ -1,0 +1,23 @@
+/* .navigation {
+    display: grid;
+    align-items: center;
+    justify-items: space-between;
+    margin: 0 auto;
+} */
+a {
+    font-size: 16px;
+    display: inline;
+    margin: 0 15px;
+    color: #F8C916;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8B5B2C;
+}
+
+a.active {
+    /* background-color: #4E5568; */
+    border-radius: 50%;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.error {
+
+    color: #8B5B2C;
+}
+
+h2, form {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+button {
+    margin-bottom: 15px;
+    border-radius: 40%;
+    background-color: #A8833D;
+    color: #E1E5E8;
+}
+
+.map {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 15px;
+}

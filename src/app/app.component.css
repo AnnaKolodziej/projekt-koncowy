@@ -1,0 +1,9 @@
+.background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(135,138,139,0.8);
+    min-width: 100px;
+    min-height: 100px;
+  }

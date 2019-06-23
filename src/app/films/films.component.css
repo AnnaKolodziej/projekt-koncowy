@@ -1,0 +1,11 @@
+.carousel {
+    margin: 15px 50px 100px 50px;
+}
+
+.inscription {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
