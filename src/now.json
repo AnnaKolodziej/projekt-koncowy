@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "cdv",
+  "builds": [
+    { "src": "*", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "index.html" },
+    { "src": "/home", "dest": "index.html" },
+    { "src": "/about", "dest": "index.html" },
+    { "src": "/literature", "dest": "index.html" },
+    { "src": "/films", "dest": "index.html" },
+    { "src": "/contact", "dest": "index.html" },
+    { "src": "/(.+)", "dest": "/$1" }
+  ]
+}

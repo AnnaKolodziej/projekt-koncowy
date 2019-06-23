@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-body { 
-    background: url(https://images.pexels.com/photos/958164/pexels-photo-958164.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
+body {
+    background: url(https://images.pexels.com/photos/958164/pexels-photo-958164.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,7 +13,7 @@ body {
 
 /* body {
     background-color: #4E5568;
-    /* background-position: center; 
+    /* background-position: center;
     background-repeat: no-repeat;
     /* object-fit: cover;
     max-width: 100%;
