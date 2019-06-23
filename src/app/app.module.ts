@@ -12,8 +12,8 @@ import { LiteratureComponent } from './literature/literature.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FilmsComponent } from './films/films.component';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule, MatCheckboxModule } from '@angular/material';
 
 const routes: Routes = [
   {
@@ -65,9 +65,9 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     FormsModule,
     HttpClientModule,
-    // BrowserAnimationsModule,
-    // MatButtonModule,
-    // MatCheckboxModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCheckboxModule,
   ],
   providers: [
     Title

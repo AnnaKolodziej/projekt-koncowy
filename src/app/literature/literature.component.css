@@ -1,5 +1,12 @@
+:host {
+    display: block;
+    max-height: calc(100vh - 100px);
+    overflow: auto;
+  }
+
 .carousel {
     margin: 15px 50px 50px 50px;
+    padding: 50px;
 }
 
 .inscription {
